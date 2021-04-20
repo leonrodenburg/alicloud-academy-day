@@ -23,5 +23,4 @@ variable "expose_api" {
 
 variable "registry_namespace_name" {
   type    = string
-  default = "academy-day"
 }

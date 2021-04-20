@@ -45,6 +45,8 @@ module "serverless-k8s-cluster" {
 
   create_private_zone = true
   expose_api          = true
+
+  registry_namespace_name = "academy-day"
 }
 
 module "table-store" {
