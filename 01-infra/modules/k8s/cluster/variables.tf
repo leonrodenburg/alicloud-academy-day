@@ -20,3 +20,8 @@ variable "expose_api" {
   type    = bool
   default = false
 }
+
+variable "registry_namespace_name" {
+  type    = string
+  default = "academy-day"
+}
